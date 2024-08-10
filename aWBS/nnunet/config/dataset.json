@@ -1,0 +1,41 @@
+{
+    "channel_names": {
+        "0": "wbs",
+        "1": "reg1",
+        "2": "reg2",
+        "3": "reg3"
+    },
+    "labels": {
+        "background": 0,
+        "malignant": 1,
+        "benign": 2
+    },
+    "numTraining": 899,
+    "file_ending": ".png",
+    "image_ending": ".npy",
+    "reference": "see https://www.synapse.org/#!Synapse:syn25829067/wiki/610863",
+    "licence": "see https://www.synapse.org/#!Synapse:syn25829067/wiki/610863",
+    "regions_class_order": [
+        1,
+        2
+    ],
+    "dataset_release": "1.0",
+    "conv_cfg": {
+        "in_channels": 1,
+        "out_channels": 3,
+        "kernel_size": 9,
+        "sigma": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "mean": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "loss_weight": 1.0,
+        "limit": 0.2551
+    },
+    "wandb_name": "gussion3"
+}
